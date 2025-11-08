@@ -55,27 +55,30 @@ Seasoned software engineer with strengths in **Python**, **JavaScript**, and **J
 
 ### 🔹 Centre for Development of Telematics (C-DOT) | Intern
 **Jan 2025 - Jul 2025 | Delhi**
-- Built **CAT (Python) & DPS (MERN)** for end-to-end 4G configuration automation, reducing manual effort by **75%** and failures by **70%**
-- Achieved **60% faster runtimes** via multithreading, caching, and real-time alerting
-- Unified workflows with direct TCS-repo integration for seamless change management
+- Built **CAT (Python) & DPS (MERN)** for end-to-end 4G configuration automation & monitoring, delivering **75% lower effort, 70% fewer failures & 60% higher visibility**, with traceable changes, role-based access & repeatable production rollouts
+- Achieved **60% faster runtimes** via multithreading & targeted caching, plus real-time alerting & modular design for fault isolation
+- Unified CAT & DPS with direct TCS-repo uploads, streamlining change management through seamless, automated workflows
 
 ### 🔹 Grid Controller of India Ltd. (Grid-India) | Intern
 **Aug 2024 - Nov 2024 | Delhi**
-- Built national-scale **load-forecasting platform** using neural networks with data from **615+ weather stations**
-- Shipped **7+ production features** and preprocessing pipelines, improving accuracy **5×**
-- Delivered interactive decision-support visuals for cost optimization
+- Built a national-scale **load-forecasting platform** using neural networks, ingesting real-time weather from **615+ stations** to deliver actionable demand predictions for operations
+- Shipped **7+ production features** & robust preprocessing pipelines, boosting accuracy & validation reliability **5× across scenarios**
+- Delivered interactive decision-support visuals enabling planners to optimise costs, rigorously stress-test scenarios & act faster
+
+### 🔹 Housing & Urban Development Corp. (HUDCO) | Intern
+**Jul 2023 - Aug 2023 | Delhi**
+- Implemented **Layer 2/3 segmentation & routing** using VLANs, BGP & OSPF, proactively isolating fault domains & resolving pathing issues to maximise uptime & throughput
+- Administered enterprise-grade routers & switches, executing preventative maintenance, firmware upgrades & config hygiene to sustain resilient, low-latency network operations
 
 ### 🔹 Canadian Fellows | Software Engineer
 **Jul 2023 - Dec 2023 | Remote**
-- Built & versioned **REST APIs in Node.js (Express)** for leads, bookings, and contacts with strict validation
-- Implemented **JWT & RBAC** authentication with comprehensive audit logging
-- Integrated external email/booking providers with secure wrappers
+- Built & versioned **REST APIs in Node.js (Express)** for leads, bookings & contacts, with strict input validation & rate limiting
+- Secured admin with **JWT, RBAC, audit logging & bcrypt**; integrated booking via secure wrappers, centralised secrets & unified error handling
 
 ### 🔹 The High Vault Security | Software Engineer
 **Jan 2023 - Jun 2023 | Remote**
-- Shipped **versioned REST APIs** with strict validation and rate-limiting
-- **Halved endpoint latency** by refining PostgreSQL schemas and query optimization
-- Hardened admin access with JWT, RBAC, and bcrypt-hashed credentials
+- Shipped versioned **REST APIs in Node.js (Express)** for enquiries, quotes & scheduling with strict validation & rate-limiting
+- **Halved endpoint latency** via refined PostgreSQL schemas & tuned queries (prepared statements, composite indexes); hardened admin with JWT sessions, RBAC, audit logs & bcrypt
 
 ---
 
