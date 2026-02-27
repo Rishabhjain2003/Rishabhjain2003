@@ -40,7 +40,7 @@ text
 - 🏅 **Academic Merit Scholarship** — Awarded for 2 consecutive years during B.Tech
 - ⚡ **700+ LeetCode Problems Solved**
 - 💬 Ask me about **REST APIs · Node.js · React · Machine Learning · Network Security**
-- 📫 **rishabh.nit.bhopal@gmail.com** · 📞 +91-7303473899
+- 📫 **rishabh.nit.bhopal@gmail.com**
 
 ---
 
@@ -133,14 +133,20 @@ text
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rishabhjain2003&show_icons=true&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=false&rank_icon=github" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabhjain2003&layout=compact&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false" width="42%" alt="Top Languages" />
-</div>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Rishabhjain2003&show_icons=true&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=false&rank_icon=github" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabhjain2003&layout=compact&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishabhjain2003&theme=tokyonight&background=0d0d0d&border=30363d&stroke=30363d&ring=58a6ff&fire=ff9800&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e" width="60%" alt="GitHub Streak" />
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishabhjain2003&theme=tokyonight&background=0d0d0d&border=30363d&stroke=30363d&ring=58a6ff&fire=ff9800&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e" alt="GitHub Streak" />
+</p>
 
 ---
 
