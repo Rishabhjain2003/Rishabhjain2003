@@ -32,8 +32,6 @@ Software Engineer with a knack for building scalable backend systems, full-stack
 and intelligent automation tools. Currently pursuing M.Tech in CSE at NIT Bhopal.
 Specialised in REST APIs, microservices, ML integration, and secure access design (JWT/RBAC).
 
-text
-
 - 🎓 **M.Tech CSE** — NIT Bhopal `CGPA: 8.0` *(2025–2027)*
 - 🎓 **B.Tech CSE** — G.B. Pant Govt. Engineering College, Delhi `CGPA: 8.3` *(2021–2025)*
 - 🏆 **1st Prize** — Delhi Government Ideathon 2022
