@@ -136,10 +136,10 @@ text
 <table align="center">
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Rishabhjain2003&show_icons=true&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=false&rank_icon=github&cache_seconds=1800" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-woad-eight-25.vercel.app/api?username=Rishabhjain2003&show_icons=true&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=false&rank_icon=github&cache_seconds=1800" alt="GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabhjain2003&layout=compact&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&cache_seconds=1800" alt="Top Languages" />
+      <img src="https://github-readme-stats-woad-eight-25.vercel.app/api/top-langs/?username=Rishabhjain2003&layout=compact&theme=tokyonight&bg_color=0d0d0d&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&cache_seconds=1800" alt="Top Languages" />
     </td>
   </tr>
 </table>
