@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a2e&height=200&section=header&text=Rishabh%20Jain&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20%7C%20ML%20Systems%20%7C%20M.Tech%20NIT%20Bhopal&descAlignY=58&descSize=18&descColor=a0a0b0" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a2e&height=200&section=header&text=Rishabh%20Jain&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Agentic%20AI%20Systems%20%7C%20M.Tech%20NIT%20Bhopal&descAlignY=58&descSize=18&descColor=a0a0b0" />
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/rishabh-jain-b0a99a225">
+  <a href="https://www.linkedin.com/in/rishabhjain1308">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/Rishabhjain2003">
@@ -32,7 +32,8 @@ Currently pursuing M.Tech in CSE at NIT Bhopal.
 
 Built and deployed a **national-scale electricity load-forecasting pipeline** at Grid Controller of India,
 processing real-time telemetry from 615+ weather stations. Engineered **4G network configuration automation**
-at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build things that work under pressure.
+at C-DOT that cut deployment time by 60%. Delivered freelance backend contracts for Canadian and UK clients.
+700+ LeetCode problems solved. I build things that work under pressure.
 
 - 🎓 **M.Tech CSE** — NIT Bhopal `CGPA: 8.0` *(2025–2027)*
 - 🎓 **B.Tech CSE** — G.B. Pant Govt. Engineering College, Delhi `CGPA: 8.3` *(2021–2025)*
@@ -45,37 +46,62 @@ at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build
 
 ## 🚀 Featured Projects
 
-### [NovaTrade](https://github.com/Rishabhjain2003) — Event-Driven Crypto Trading Platform
-> Real-time cryptocurrency paper trading platform built on event-driven microservices.
-- Redis Pub/Sub for async order execution with sub-50ms order routing
-- WebSocket-based live P&L updates and order book streaming
-- Binance Testnet API integration with isolated order, market-data, and notification services
-- `Node.js` `Redis` `WebSockets` `Microservices` `Docker`
-
----
-
-### [TechBossAI](https://github.com/Rishabhjain2003) — AI Developer Agent for VS Code
+### [TechBossAI](https://github.com/Rishabhjain2003/TechBoss) — AI Developer Agent for VS Code
 > VS Code extension with Gemini API integration for context-aware code generation.
-- Agent mode that reasons over active file context to propose targeted code changes
-- Side-by-side diff interface for safe one-click acceptance or rejection of suggestions
-- Intelligent token management — prioritises cursor-adjacent code to stay within context limits
-- `Gemini API` `TypeScript` `VS Code Extension API` `Prompt Engineering`
+- Multi-step **agent loop** that reasons over workspace context via tool calls to navigate and edit codebases
+- Token-budget-aware **context packer** — decides what files and snippets fit within model limits at each step
+- **Snapshot-based rollback** system records file state before writes; safe one-click acceptance and rejection
+- `Gemini API` `TypeScript` `VS Code Extension API` `Agentic AI` `Prompt Engineering`
 
 ---
 
-### [GridSense](https://github.com/Rishabhjain2003) — National Electricity Load Forecasting *(GCIL)*
-> Production ML pipeline built during internship at Grid Controller of India Ltd.
-- LSTM-based ANN ingesting real-time telemetry from 615+ weather stations across India
-- 8-feature engineering pipeline — achieved 2× accuracy improvement over legacy models
-- Day-Ahead and intraday R1 revision workflows used by grid operators for resource allocation
-- `Python` `TensorFlow` `Keras` `Pandas` `FastAPI`
+### [NovaTrade](https://github.com/Rishabhjain2003/NovaTrade-Testnet-Terminal) — Event-Driven Crypto Trading Platform
+> Real-time cryptocurrency paper trading platform built on event-driven microservices.
+- **Redis Pub/Sub** for async order execution with sub-50ms order routing
+- **WebSocket**-based live P&L updates and order book streaming
+- AES-256-CBC encrypted API key storage — execution service decrypts, backend never holds plaintext
+- Binance Testnet API integration with isolated order, market-data, and notification services
+- `Node.js` `Redis` `PostgreSQL` `WebSockets` `Microservices` `Docker`
+
+---
+
+### [Distributed Task Queue](https://github.com/Rishabhjain2003/DistributedTaskQueueSystem) — Distributed Systems Project
+> Production-grade background job processing system with fault tolerance and priority scheduling.
+- **RabbitMQ** broker with priority queues (0–10); **Celery** workers with `task_acks_late` for crash-safe execution
+- Validated failure recovery via `random_fail` simulation; verified job requeue on worker crash
+- **Flower** monitoring dashboard; revoke and abort endpoints for task control
+- `Python` `FastAPI` `Celery` `RabbitMQ` `Redis` `Docker Compose`
+
+---
+
+### [AutoSubAI](https://github.com/Rishabhjain2003) — AI Subtitle Generation CLI
+> CLI tool for automated subtitle generation using OpenAI Whisper.
+- Transcribes video/audio files to SRT format using Whisper's speech recognition pipeline
+- Supports batch processing and multiple output formats
+- `Python` `OpenAI Whisper` `CLI` `FFmpeg`
+
+---
+
+### [Codecast](https://github.com/Rishabhjain2003) — Real-Time Collaborative Code Editor
+> Browser-based collaborative coding environment with live synchronisation.
+- Real-time multi-user code editing with conflict-free synchronisation via WebSockets
+- Room-based session management with syntax highlighting across languages
+- `Node.js` `WebSockets` `React` `CodeMirror`
+
+---
+
+### [Prostate Lesion Detection](https://github.com/Rishabhjain2003) — Medical Imaging, 3D Deep Learning
+> 3D CNN pipeline for clinically significant prostate lesion detection from MRI scans.
+- Trained on **PROSTATEx** dataset; captured volumetric spatial relationships across multi-parametric MRI sequences
+- Addressed class imbalance via augmentation and architectural tuning — improved generalization over 2D methods
+- `Python` `TensorFlow` `Keras` `3D CNN` `Medical Imaging`
 
 ---
 
 ### [CAT + DPS](https://github.com/Rishabhjain2003) — 4G Network Automation Tools *(C-DOT)*
 > Configuration and deployment tooling built during internship at Centre for Development of Telematics.
-- CAT: Automated 4G node `.cfg` generation — cut configuration time by 60%, errors by 30%
-- DPS: MERN stack monitoring system for node versioning, parameter dependencies, and config validation
+- **CAT**: Automated 4G node `.cfg` generation — cut configuration time by **60%**, errors by **30%**
+- **DPS**: MERN stack monitoring system for node versioning, parameter dependencies, and config validation
 - Multi-tier rollback workflow enabling field teams to revert base configs during critical node updates
 - `Python` `FastAPI` `Pandas` `React` `Node.js` `MongoDB`
 
@@ -116,6 +142,7 @@ at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🔐 Security & Architecture
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
@@ -128,7 +155,7 @@ at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build
 
 **Curiate Solutions — SDE Intern** `Oct 2025 – Dec 2025`
 - Built guest checkout flow (React + Razorpay) for Skaya.club; cron-based cart recovery reduced abandonment by **35%**
-- Engineered Notion API-backed headless CMS, eliminating engineering dependency for blog deployments
+- Designed Notion API-backed headless CMS, eliminating engineering dependency for blog deployments
 
 **Centre for Development of Telematics (C-DOT) — SDE Intern** `Jan 2025 – Jul 2025`
 - Built CAT automation tool (FastAPI + Pandas) — cut 4G node config time by **60%**, deployment errors by **30%**
@@ -139,15 +166,31 @@ at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build
 - Deployed LSTM load-forecasting pipeline ingesting telemetry from **615+ weather stations** nationally
 - Achieved **2× accuracy** over legacy models; enabled Day-Ahead and intraday R1 prediction workflows
 
+**Canadian Fellows — Freelance Backend Engineer** `Nov 2023 – Jul 2024`
+- Built Node.js (Express) REST APIs for lead capture, booking, and contact workflows with payload validation and rate limiting
+- Designed MongoDB schemas with targeted indexing — reduced read latency by **35%**
+- Implemented JWT + RBAC for admin endpoints with bcrypt hashing, audit logging, and centralized secret management
+
+**The High Vault Security — Freelance Backend Engineer** `Jan 2023 – Oct 2023`
+- Built versioned REST APIs (Node.js) for enquiries, quotes, and scheduling; documented with OpenAPI specification
+- Designed PostgreSQL schemas with composite indexes and prepared statements — reduced endpoint latency by **~50%**
+- Added structured logging and error tracking — reduced incident resolution time by **45%**
+
+**HUDCO Ltd. — Networking Intern** `Jul 2023 – Aug 2023`
+- Configured VLANs and OSPF routing for data center traffic isolation; resolved connectivity faults to maintain uptime
+
 ---
 
-## 🏆 Achievements
+## 🏆 Achievements & Certifications
 
 | Achievement | Details |
 |:---|:---|
 | 🥇 **1st Prize — Delhi Govt. Ideathon 2022** | State-level competition recognition |
 | 📚 **Academic Merit Scholarship** | 2 consecutive years during B.Tech |
 | 💻 **700+ LeetCode Problems** | Consistent DSA practice |
+| 🏅 **MongoDB Associate Developer** | MongoDB University, 2026 |
+| 🏅 **Postman API Fundamentals Student Expert** | Postman, 2026 |
+| 🏅 **GitHub Actions** | GitHub Skills, 2026 |
 | 🌐 **IEEE GBPEC — Webmaster** *(2023–2024)* | Built and maintained chapter website |
 | 💰 **NSS GBPEC — Treasurer** *(2023–2024)* | Managed finances for 250+ participant programmes |
 
@@ -171,7 +214,7 @@ at C-DOT that cut deployment time by 60%. 700+ LeetCode problems solved. I build
 ## 📫 Let's Connect
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/rishabh-jain-b0a99a225">
+  <a href="https://www.linkedin.com/in/rishabhjain1308">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://my-portfolio-one-zeta-50.vercel.app/">
